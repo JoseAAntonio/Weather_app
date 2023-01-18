@@ -1,6 +1,6 @@
 //NOTE - variables and event selectors
 
-const apiKey = "d00a2d1c7846aa440fc2c56553909abc";
+const apiKey = "d00a2d1c7846aa4thatsNotMyKey40fc2c56553909abc";
 const urlCountryApi = "https://flagsapi.com/BE/flat/64.png";
 
 const cityInput = document.getElementById("city-input");
