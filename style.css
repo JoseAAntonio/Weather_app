@@ -4,7 +4,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: "Ubunto", Courier, monospace;
+	font-family: "Ubunto", sans-serif;
 }
 
 body {
@@ -66,4 +66,37 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i {
+	font-size: 1rem;
+}
+
+#weather-data span {
+	margin: 0.6rem;
+}
+
+#country {
+	height: 15px;
+}
+
+#description-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	margin: 0.6rem 0;
+}
+
+#details-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+
+#details-container #umidity {
+	border-right: 1px solid #fff;
+	margin: 0.6rem;
+	padding: 0.6rem;
 }
